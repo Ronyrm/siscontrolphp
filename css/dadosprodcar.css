@@ -1,0 +1,38 @@
+#qtdcomprado{
+    align-content: center;
+    
+}
+
+.center {
+    margin: 0 auto;
+    top: 200px;
+    padding: 20px;
+    position: relative;
+    display: flex;
+    z-index: 2;
+}
+
+#btnconfcompra{
+    cursor: pointer;
+    border-radius: 2px;
+}
+.divprincipal-dadosprod{
+    border-radius: 20px;
+    
+    /*box-shadow: 0px 8px 8px 0px #0062cc;*/
+}
+.divtitulo{
+     border-radius: 20px;
+}
+.divprincipal-dadosprod div img{
+    margin: 5px 5px 5px 5px;
+
+}
+.divprincipal-dadosprod  div {
+}
+.divprincipal-dadosprod  div .tituloprod{
+    color: white;
+}
+body{
+
+}

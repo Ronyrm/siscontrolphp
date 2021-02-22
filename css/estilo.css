@@ -1,0 +1,49 @@
+.pararony{
+    color: red;
+}
+
+ .navbar-brand img{
+    
+    font: 10px;
+}
+
+#fontea{
+    
+    font: 10px;
+    
+}
+#botaogrupo {
+    margin-bottom: 20px;
+    border-radius: 20px;
+    height: 60px;
+}
+
+.btn-custom {
+	
+    margin-bottom: 20px;
+    border-radius: 20px;
+    height: 60px;
+}
+
+.btn-icon {
+	
+	
+	
+	background: #ffffff;
+}
+
+#centro {
+    width:600px;
+    height:100px;
+    position:absolute;
+    top:50%;
+    left:50%;
+    margin-top:-50px;
+    margin-left:-50px;
+}
+
+body {
+    
+    /*background-color:silver;*/
+}
+

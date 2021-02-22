@@ -1,0 +1,171 @@
+
+.dropdown div.dropdown-menu:before {
+    content: "";
+    border-bottom: 10px solid #fff;
+    border-right: 10px solid transparent;
+    border-left: 10px solid transparent;
+    position: absolute;
+    top: -10px;
+    right: 16px;
+    z-index: 10;
+}
+.dropdown div.dropdown-menu:after {
+    content: "";
+    border-bottom: 12px solid #ccc;
+    border-right: 12px solid transparent;
+    border-left: 12px solid transparent;
+    position: absolute;
+    top: -12px;
+    right: 14px;
+    z-index: 9;
+}
+
+
+
+.btn-outline-padrao {
+  color: #343a40;
+  border-color: #343a40;
+}
+
+.btn-outline-padrao:hover {
+  color: #fff;
+  background-color: #343a40;
+  border-color: #343a40;
+}
+
+.btn-outline-padrao:focus, .btn-outline-padrao.focus {
+  box-shadow: 0 0 0 0.2rem rgba(52, 58, 64, 0.5);
+}
+
+.btn-outline-padrao.disabled, .btn-outline-padrao:disabled {
+  color: #343a40;
+  background-color: transparent;
+}
+
+.btn-outline-padrao:not(:disabled):not(.disabled):active, .btn-outline-padrao:not(:disabled):not(.disabled).active,
+.show > .btn-outline-dark.dropdown-toggle {
+  color: #fff;
+  background-color: #343a40;
+  border-color: #343a40;
+}
+
+.btn-outline-padrao:not(:disabled):not(.disabled):active:focus, .btn-outline-padrao:not(:disabled):not(.disabled).active:focus,
+.show > .btn-outline-padrao.dropdown-toggle:focus {
+  box-shadow: 0 0 0 0.2rem rgba(52, 58, 64, 0.5);
+}
+
+
+
+.bg-padrao {
+  background-color: #343a40 !important;
+}
+
+#mySidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+#mySidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+#mySidenav a:hover {
+  color: red;
+}
+
+#mySidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  margin-left: 50px;
+}
+
+#mainside
+  transition: margin-left .5s;
+  padding: 16px;
+}
+
+@media screen and (max-height: 450px) {
+  #mySidenav {padding-top: 15px;}
+  #mySidenav a {font-size: 18px;}
+}
+
+
+
+
+
+
+.dropbtn {
+  cursor: pointer;
+  border-radius: 2px;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  right: 0;
+  background-color: #343a40!important;
+  border-color: black;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(20,0,20,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: white;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+
+.dropdown:hover .dropdown-content {display: block;}
+.dropdown-content a:hover {background-color: #0062cc;}
+
+
+.dropdowngrupo {
+  position: absolute;
+  display: inline;
+    
+}
+
+.dropdowngrupo-content {
+  display: none;
+  position: absolute;
+  left: 0;
+  background-color: #343a40!important;
+  border-color: black;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(20,0,20,0.2);
+  z-index: 1;
+}
+
+.dropdowngrupo-content a:focus {
+  color: white;
+  padding: 12px 16px;
+  text-decoration: none;
+  /*display: block;*/
+}
+
+
+
+
+.dropdowngrupo:hover .dropdowngrupo-content {display: block;}
+.dropdowngrupo-content a:hover {background-color: #0062cc;}

@@ -1,0 +1,158 @@
+#divInfoNutri{
+
+    margin-top: 20px;
+}
+
+tr.trDadosInfo{
+    
+    
+}
+#col-form{
+    text-align: center;
+    padding: 5px;
+    margin: 0 auto;
+    
+}
+
+#btnCalcular{
+    width: 50%;
+    margin-top: 5px;
+    align-items: flex-start;
+    border-radius: 10px;
+    border-color: white;
+    
+}
+
+
+#qtd_gramasdig{
+    text-align: center;
+    border-radius: 20px;
+    
+    
+
+    
+}
+div.divPrincipal{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border-radius: 20px;
+    border-color: white;
+    
+}
+div.divDadosMacroPai{
+    margin-top: 30px;
+}
+div.divDadosMacroFilho{ 
+    
+    margin-bottom: 10px;
+    
+       
+}
+div.divDadosMacroFilho div{
+    
+    border:1px solid dodgerblue;
+    border-radius: 15px;
+    padding: 10px;
+    
+}
+div.divDadosMacro h5{
+    
+    text-align: center;
+    align-content: center;
+}
+
+.divDadosAl{
+    
+    margin-top: 10px;
+}
+
+
+.tituloDescAl{
+    align-content: center;
+    text-align: center;
+    
+}
+
+
+#form-Pesquisa{
+    padding: 10px;
+    margin-top: 20px;
+    
+}
+
+#edt-Pesq{
+    margin-top: 5px;
+    margin-bottom: 5px;
+  
+}
+#btn-Pesquisar{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border-radius: 2px;
+  
+}
+.mostraDados{
+    text-decoration:none;
+}
+.div-center{
+    border-color: black;
+    border: 5px;
+    
+}
+#div-DadosPesqID table#cabecalhotab tbody tr{
+    /*border:10px solid #EDEDDC;*/
+    border:1px solid black;
+} 
+#div-DadosPesqID table#cabecalhotab tbody tr td{
+    /*border:10px solid #EDEDDC;*/
+    border-bottom:1px solid black;
+}
+
+div#div-DadosPesqID {
+    display: none;
+    
+}
+div#div-DadosPesqID table{
+    display: none; 
+    align-content: center;
+}
+
+
+div#div-DadosPesq {
+    width:650px;
+    margin:60px auto 0;
+    border:1px solid #EDEDDC;
+    font-family:sans-serif;
+    font-size:13px;
+    color:#9A9668;
+}
+
+div#div-DadosPesq ul {
+    margin:0;padding:0; 
+    border-bottom:1px solid #EDEDDC;
+}
+
+div#div-DadosPesq ul:last-child {
+    border-bottom:none;
+}
+
+div#div-DadosPesq li {
+    list-style:none;
+    display:inline-block;
+
+}
+
+div#div-DadosPesq li:nth-child(1) {
+    width:380px; 
+    padding:8px 4px;
+}
+
+div#div-DadosPesq li:nth-child(2) {
+    width:140px;  
+    padding:5px 2px;
+}    
+
+div#div-DadosPesq li:nth-child(3){
+    width:140px;  
+    padding:5px 2px;
+}  
